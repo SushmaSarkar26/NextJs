@@ -15,7 +15,7 @@ export default function Page(){
         <div>
             <h1>Product List</h1>
             {
-                product.map((item)=>(
+                products.map((item)=>(
                     <h3>Product : {item.title}, Price: {item.price}</h3>
                 ))
             }
